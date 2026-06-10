@@ -17,13 +17,7 @@
 [![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-<br/>
-
-[![GitHub Stars](https://img.shields.io/github/stars/Him-an-shi/Aarini?style=social)](https://github.com/Him-an-shi/Aarini/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/Him-an-shi/Aarini?style=social)](https://github.com/Him-an-shi/Aarini/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/Him-an-shi/Aarini)](https://github.com/Him-an-shi/Aarini/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Beginner Friendly](https://img.shields.io/badge/beginner-friendly-blueviolet)](https://github.com/Him-an-shi/Aarini/issues?q=is%3Aissue+label%3A%22good+first+issue%22)
+<br/
 
 <br/>
 
