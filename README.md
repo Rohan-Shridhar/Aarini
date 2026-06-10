@@ -6,20 +6,7 @@
 
 ### *Your AI-Powered Women's Hormonal Wellness & Period Health Companion*
 
-<br/>
 
-[![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
-[![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
-[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
-[![Gemini AI](https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
-[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
-[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-
-<br/
-
-<br/>
 
 > **Aarini** — *Meaning "bringer of light"* — is a compassionate, intelligent, and privacy-first health companion built to help every woman understand her body, honor her cycle, and thrive at every phase of life.
 
