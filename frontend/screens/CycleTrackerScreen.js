@@ -15,7 +15,7 @@ import {
 import {
   cancelPredictionNotifications, schedulePredictionNotifications,
 } from '../services/predictionNotifications';
-import { syncCycles, savePendingEntries } from '../services/syncService';
+import { syncCycles } from '../services/syncService';
 
 const BACKEND_URL = process.env.EXPO_PUBLIC_API_URL || 'http://10.117.86.186:5000';
 const WEEKDAYS = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
