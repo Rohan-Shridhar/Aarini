@@ -9,6 +9,7 @@ import { LoginScreen } from '../screens/LoginScreen';
 import { SignupScreen } from '../screens/SignupScreen';
 import { ForgotPasswordScreen } from '../screens/ForgotPasswordScreen';
 import { CycleTrackerScreen } from '../screens/CycleTrackerScreen';
+import { SymptomLogScreen } from '../screens/SymptomLogScreen';
 
 const Stack = createStackNavigator();
 
@@ -24,6 +25,7 @@ const AuthStack = () => (
 const AppStack = () => (
   <Stack.Navigator screenOptions={{ headerShown: false }}>
     <Stack.Screen name="Dashboard" component={CycleTrackerScreen} />
+    <Stack.Screen name="SymptomLog" component={SymptomLogScreen} />
   </Stack.Navigator>
 );
 
