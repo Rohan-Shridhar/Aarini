@@ -12,17 +12,7 @@ import { SignupScreen } from '../screens/SignupScreen';
 import { ForgotPasswordScreen } from '../screens/ForgotPasswordScreen';
 import { CycleTrackerScreen } from '../screens/CycleTrackerScreen';
 import { InsightsScreen } from '../screens/InsightsScreen';
-
-let MoodScreen;
-try {
-  MoodScreen = require('../screens/MoodTrackingScreen').MoodTrackingScreen;
-} catch {
-  MoodScreen = () => (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Mood tracking coming soon</Text>
-    </View>
-  );
-}
+import { MoodTrackingScreen } from '../screens/MoodTrackingScreen';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -66,7 +56,7 @@ const AppTabs = () => {
       />
       <Tab.Screen
         name="Mood"
-        component={MoodScreen}
+        component={MoodTrackingScreen}
         options={{
           tabBarIcon: ({ color, size }) => <Smile size={size} color={color} />,
         }}
