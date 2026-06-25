@@ -13,6 +13,7 @@ import { ForgotPasswordScreen } from '../screens/ForgotPasswordScreen';
 import { CycleTrackerScreen } from '../screens/CycleTrackerScreen';
 import { InsightsScreen } from '../screens/InsightsScreen';
 import { MoodTrackingScreen } from '../screens/MoodTrackingScreen';
+import { SymptomLogScreen } from '../screens/SymptomLogScreen';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -72,6 +73,13 @@ const AppTabs = () => {
   );
 };
 
+const AppStack = () => (
+  <Stack.Navigator screenOptions={{ headerShown: false }}>
+    <Stack.Screen name="Tabs" component={AppTabs} />
+    <Stack.Screen name="SymptomLog" component={SymptomLogScreen} />
+  </Stack.Navigator>
+);
+
 export const AppNavigator = () => {
   const { userToken, isLoading } = useAuth();
   const { theme } = useTheme();
@@ -94,7 +102,7 @@ export const AppNavigator = () => {
 
   return (
     <NavigationContainer theme={navigationTheme}>
-      {userToken ? <AppTabs /> : <AuthStack />}
+      {userToken ? <AppStack /> : <AuthStack />}
     </NavigationContainer>
   );
 };
